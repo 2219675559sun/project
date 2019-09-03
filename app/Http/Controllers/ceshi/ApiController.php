@@ -8,7 +8,7 @@ use App\Http\Model\Ceshi\Wechat_openid;
 class ApiController extends Controller
 {
     public function api(){
-        $data=Wechat_openid::get();
+        $data=Wechat_openid::get()->toArray();
         dd($data);
     }
 }
