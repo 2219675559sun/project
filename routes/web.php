@@ -10,8 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-echo 11;
-die;
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -33,3 +33,49 @@ Route::get('/curl/update', 'ceshi\CurlController@update');
 Route::post('/curl/update_do', 'ceshi\CurlController@update_do');
 //--------------------------------------------------------------------------------------
 Route::get('/api/api', 'ceshi\ApiController@api');
+
+Route::get('/api/user/add', function () {
+    return view('ceshi.api.user.create');
+});
+Route::get('/api/user/index', function () {
+    return view('ceshi.api.user.index');
+});
+Route::get('/api/user/update', function () {
+    return view('ceshi.api.user.update');
+});
+//Route::any('/api/create', 'ceshi\ApiController@create');
+Route::any('/api/index', 'ceshi\ApiController@index');
+Route::any('/api/aes', 'ceshi\ApiController@aes');
+Route::get('/api/adduser', 'ceshi\ApiController@adduser');
+Route::get('/api/ceshi', 'ceshi\ApiController@ceshi');
+//Route::get('/api/delete', 'ceshi\ApiController@delete');
+//Route::get('/api/find', 'ceshi\ApiController@find');
+//Route::any('/api/update', 'ceshi\ApiController@update');
+Route::resource('api/user', 'ceshi\api\UserController');
+Route::get('/api/1', function () {
+    return view('ceshi.api.user.1');
+});
+
+//---------------------------------------------------------------------
+//api_user 用户名注册
+Route::resource('apiuser', 'ceshi\api\ApiUserController');
+
+Route::get('userapi/create', function () {
+    return view('ceshi.api.apiUser.add');
+});
+Route::get('userapi/index', function () {
+    return view('ceshi.api.apiUser.index');
+});
+//-----------------------------------------------------------------------
+//goodsapi
+Route::resource('goodsapi', 'ceshi\api\GoodsApiController');
+
+Route::get('goods_api/add', function () {
+    return view('ceshi.api.zoukao.goodsApi.add');
+});
+Route::get('goods_api/index', function () {
+    return view('ceshi.api.zoukao.goodsApi.index');
+});
+Route::get('goods_api/update', function () {
+    return view('ceshi.api.zoukao.goodsApi.update');
+});
