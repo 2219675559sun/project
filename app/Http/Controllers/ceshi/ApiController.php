@@ -137,8 +137,10 @@ class ApiController extends Controller
 
     }
     public function adduser(Request $request){
-        dd(11);
         $data=$request->all();
+        if(!$data['user']){
+            echo json_encode(['code'=>205,'msg'=>'参数错误']);die;
+        }
         dd($data);
         $aes=new aes('1314520612345258');
         $info=$aes->decrypt($data);
@@ -152,7 +154,7 @@ class ApiController extends Controller
         $info=$aes->decrypt($data);
     }
     public function ceshi(){
-        $url="http://www.project.com/api/adduser";
+        $url="http://sun.vizhiguo.com/api/adduser";
         $one="1314520612345258";
         $cs="name=孙志国&age=23&mobile=18888888888";
 //        $aes=new aes($one);
