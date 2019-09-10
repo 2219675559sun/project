@@ -11,4 +11,6 @@ class Wechat_openid extends Model
     protected $table = 'wechat_openid';
     protected $primaryKey="id";
     public $timestamps = false;
+
+
 }

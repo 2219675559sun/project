@@ -8,6 +8,13 @@ use DB;
 class CurlController extends Controller
 {
     public function index(Request $request){
+        $url="http://www.project.com/api/adduser";
+        $one="1314520612345258";
+        $cs="name=孙志国&age=23&mobile=18888888888";
+//        $aes=new aes($one);
+//        $info=$aes->encrypt($cs);
+        dd(file_get_contents($url.'?user='.$cs));
+    dd();
         $name=$request->all();
         $where=[];
         if(!empty($name['name'])){
@@ -33,6 +40,7 @@ class CurlController extends Controller
     }
     public function add_do(Request $request){
         $arr=$request->all();
+        dd($arr);
         $res=DB::connection('cheshi')->table('s_school')->insert([
             's_name'=>$arr['s_name'],
             's_age'=>$arr['s_age'],
