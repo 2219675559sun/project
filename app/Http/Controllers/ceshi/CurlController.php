@@ -8,13 +8,6 @@ use DB;
 class CurlController extends Controller
 {
     public function index(Request $request){
-        $url="http://www.project.com/api/adduser";
-        $one="1314520612345258";
-        $cs="name=孙志国&age=23&mobile=18888888888";
-//        $aes=new aes($one);
-//        $info=$aes->encrypt($cs);
-        dd(file_get_contents($url.'?user='.$cs));
-    dd();
         $name=$request->all();
         $where=[];
         if(!empty($name['name'])){

@@ -138,7 +138,7 @@ class ApiController extends Controller
     }
     public function adduser(Request $request){
         $data=$request->all();
-        if(!$data['user']){
+        if(empty($data['user'])){
             echo json_encode(['code'=>205,'msg'=>'参数错误']);die;
         }
         dd($data);
@@ -159,7 +159,7 @@ class ApiController extends Controller
         $cs="name=孙志国&age=23&mobile=18888888888";
 //        $aes=new aes($one);
 //        $info=$aes->encrypt($cs);
-        dd(file_get_contents($url.'?user='.$cs));
+        dd(file_get_contents($url));
     }
 
 

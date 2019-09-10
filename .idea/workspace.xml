@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef724e51-0d0d-45c2-a6f0-157c34ecfca6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Model/Ceshi/Wechat_openid.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Model/Ceshi/Wechat_openid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="-268">
               <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
@@ -58,22 +55,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="159" column="49" lean-forward="true" selection-start-line="154" selection-start-column="8" selection-end-line="159" selection-end-column="49" />
+            <state relative-caret-position="222">
+              <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1318">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +131,8 @@
         <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/update.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Aes/Aes.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" />
       </list>
     </option>
   </component>
@@ -519,15 +504,16 @@
       <workItem from="1567824087737" duration="13944000" />
       <workItem from="1567948215572" duration="4868000" />
       <workItem from="1567987870176" duration="27928000" />
-      <workItem from="1568085744514" duration="16185000" />
+      <workItem from="1568085744514" duration="17163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169900000" />
+    <option name="totallyTimeSpent" value="170878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23458445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -542,7 +528,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -834,23 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1318">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -858,10 +827,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1654">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="159" column="49" lean-forward="true" selection-start-line="154" selection-start-column="8" selection-end-line="159" selection-end-column="49" />
+        <state relative-caret-position="222">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
