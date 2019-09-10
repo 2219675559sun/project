@@ -46,8 +46,8 @@ class Aes
         //解密
     public function decrypt($input)
     {
-         $input = base64_decode($input);
-//        $input = hex2bin($input);  //16进制转为普通编码
+//         $input = base64_decode($input);
+        $input = hex2bin($input);  //16进制转为普通编码
         $decrypted = openssl_decrypt($input, 'AES-128-ECB', $this->key, OPENSSL_RAW_DATA, $this->hexToStr($this->hex_iv));
         return $decrypted;
     }

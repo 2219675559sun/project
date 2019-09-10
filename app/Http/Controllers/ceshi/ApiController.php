@@ -8,6 +8,7 @@ use App\Http\Model\Ceshi\Wechat_openid;
 use App\Http\Model\Ceshi\User;
 use App\Http\Aes\Aes;
 use App\Http\Rsa\Rsa;
+use DB;
 class ApiController extends Controller
 {
     /*
@@ -138,28 +139,43 @@ class ApiController extends Controller
     }
     public function adduser(Request $request){
         $data=$request->all();
-        if(empty($data['user'])){
-            echo json_encode(['code'=>205,'msg'=>'参数错误']);die;
-        }
         dd($data);
+        if(empty($data['user'])){
+            echo json_encode(['code'=>205,'msg'=>'缺少参数'],JSON_UNESCAPED_UNICODE);die;
+        }
         $aes=new aes('1314520612345258');
-        $info=$aes->decrypt($data);
-            dd($data);
+        //解密
+        $jie=$data;
+
+        dd($jie);
+        $info=$aes->decrypt("9ea29e525f70c01b1483dd594e36a73ad8c708590bbd0e3b300c9cf5232dc2343db6f0b984b8f56615f376a9c72c47bf");
+        dd($info);
         $name=substr($data['user'],5);
         $data['name']=$name;
+        $data['create_time']=time();
         unset($data['user']);
-        dd($data);
+        if(empty($data['name'])||empty($data['age'])||empty($data['sex'])){
+            echo json_encode(['code'=>205,'msg'=>'参数错误'],JSON_UNESCAPED_UNICODE);die;
+        }
+        $res=DB::connection('test1_mysql')->table('aes_user')->insert($data);
+       if($res){
+           echo json_encode(['code'=>200,'msg'=>'请求成功'],JSON_UNESCAPED_UNICODE);die;
+       }else{
+           echo json_encode(['code'=>203,'msg'=>'请求失败'],JSON_UNESCAPED_UNICODE);die;
+       }
+       dd();
         $ss="adduser?user=name=123&age=55&sex=男";
         $aes=new aes('1314520612345258');
         $info=$aes->decrypt($data);
     }
     public function ceshi(){
-        $url="http://sun.vizhiguo.com/api/adduser";
+        $url="http://www.project.com/api/adduser";
         $one="1314520612345258";
         $cs="name=孙志国&age=23&mobile=18888888888";
-//        $aes=new aes($one);
-//        $info=$aes->encrypt($cs);
-        dd(file_get_contents($url));
+        $aes=new aes($one);
+        $info=$aes->encrypt($cs);
+
+        dd(file_get_contents($url.'?user='.$info));
     }
 
 
