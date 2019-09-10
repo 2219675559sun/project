@@ -139,22 +139,24 @@ class ApiController extends Controller
     }
     public function adduser(Request $request){
         $data=$request->all();
-        dd($data);
         if(empty($data['user'])){
             echo json_encode(['code'=>205,'msg'=>'缺少参数'],JSON_UNESCAPED_UNICODE);die;
         }
         $aes=new aes('1314520612345258');
         //解密
-        $jie=$data;
-
-        dd($jie);
-        $info=$aes->decrypt("9ea29e525f70c01b1483dd594e36a73ad8c708590bbd0e3b300c9cf5232dc2343db6f0b984b8f56615f376a9c72c47bf");
-        dd($info);
-        $name=substr($data['user'],5);
+        $info=$aes->decrypt($data['user']);
+        $data=explode('&',$info);
+        $name=substr($data[0],5);
+        $age=substr($data[1],4);
+        $mobile=substr($data[2],7);
         $data['name']=$name;
+        $data['age']=$age;
+        $data['mobile']=$mobile;
         $data['create_time']=time();
-        unset($data['user']);
-        if(empty($data['name'])||empty($data['age'])||empty($data['sex'])){
+        unset($data[0]);
+        unset($data[1]);
+        unset($data[2]);
+        if(empty($data['name'])||empty($data['age'])||empty($data['mobile'])){
             echo json_encode(['code'=>205,'msg'=>'参数错误'],JSON_UNESCAPED_UNICODE);die;
         }
         $res=DB::connection('test1_mysql')->table('aes_user')->insert($data);
@@ -163,10 +165,7 @@ class ApiController extends Controller
        }else{
            echo json_encode(['code'=>203,'msg'=>'请求失败'],JSON_UNESCAPED_UNICODE);die;
        }
-       dd();
-        $ss="adduser?user=name=123&age=55&sex=男";
-        $aes=new aes('1314520612345258');
-        $info=$aes->decrypt($data);
+
     }
     public function ceshi(){
         $url="http://www.project.com/api/adduser";
@@ -174,7 +173,7 @@ class ApiController extends Controller
         $cs="name=孙志国&age=23&mobile=18888888888";
         $aes=new aes($one);
         $info=$aes->encrypt($cs);
-
+        dd($info);
         dd(file_get_contents($url.'?user='.$info));
     }
 
