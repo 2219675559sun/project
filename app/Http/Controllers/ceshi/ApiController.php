@@ -139,13 +139,13 @@ class ApiController extends Controller
     }
     public function adduser(Request $request){
         $data=$request->all();
+        dd($data);
         if(empty($data['user'])){
             echo json_encode(['code'=>205,'msg'=>'缺少参数'],JSON_UNESCAPED_UNICODE);die;
         }
         $aes=new aes('1314520612345258');
         //解密
         $info=$aes->decrypt($data['user']);
-        if($info) {
             $data = explode('&', $info);
             $name = substr($data[0], 5);
             $age = substr($data[1], 4);
@@ -169,27 +169,23 @@ class ApiController extends Controller
                 echo json_encode(['code' => 203, 'msg' => '请求失败'], JSON_UNESCAPED_UNICODE);
                 die;
             }
-        }else{
-            echo json_encode(['code' => 203, 'msg' => '请求失败'], JSON_UNESCAPED_UNICODE);
-
-        }
 
     }
     public function ceshi(){
-        $cs="name=意见箱&age=23&mobile=18888888888";
-        $arr=explode('&',$cs);
-        $info=[];
-        foreach($arr as $k=>$v){
-          $dd=explode('=',$v);
-            $info[$dd[0]]=$dd[1];
-        }
-    dd($info);
+//        $cs="name=意见箱&age=23&mobile=18888888888";
+//        $arr=explode('&',$cs);
+//        $info=[];
+//        foreach($arr as $k=>$v){
+//          $dd=explode('=',$v);
+//            $info[$dd[0]]=$dd[1];
+//        }
+//    dd($info);
         $url="http://sun.vizhiguo.com/api/adduser";
         $one="1314520612345258";
         $cs="name=意见箱&age=23&mobile=18888888888";
         $aes=new aes($one);
-        $info=$aes->encrypt($cs);
-        dd(file_get_contents($url.'?user='.$info));
+//        $info=$aes->encrypt($cs);
+        dd(file_get_contents($url.'?user='.$cs));
     }
 
 
