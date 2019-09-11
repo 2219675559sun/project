@@ -145,35 +145,50 @@ class ApiController extends Controller
         $aes=new aes('1314520612345258');
         //解密
         $info=$aes->decrypt($data['user']);
-        $data=explode('&',$info);
-        $name=substr($data[0],5);
-        $age=substr($data[1],4);
-        $mobile=substr($data[2],7);
-        $data['name']=$name;
-        $data['age']=$age;
-        $data['mobile']=$mobile;
-        $data['create_time']=time();
-        unset($data[0]);
-        unset($data[1]);
-        unset($data[2]);
-        if(empty($data['name'])||empty($data['age'])||empty($data['mobile'])){
-            echo json_encode(['code'=>205,'msg'=>'参数错误'],JSON_UNESCAPED_UNICODE);die;
+        if($info) {
+            $data = explode('&', $info);
+            $name = substr($data[0], 5);
+            $age = substr($data[1], 4);
+            $mobile = substr($data[2], 7);
+            $data['name'] = $name;
+            $data['age'] = $age;
+            $data['mobile'] = $mobile;
+            $data['create_time'] = time();
+            unset($data[0]);
+            unset($data[1]);
+            unset($data[2]);
+            if (empty($data['name']) || empty($data['age']) || empty($data['mobile'])) {
+                echo json_encode(['code' => 205, 'msg' => '参数错误'], JSON_UNESCAPED_UNICODE);
+                die;
+            }
+            $res = DB::connection('test1_mysql')->table('aes_user')->insert($data);
+            if ($res) {
+                echo json_encode(['code' => 200, 'msg' => '请求成功'], JSON_UNESCAPED_UNICODE);
+                die;
+            } else {
+                echo json_encode(['code' => 203, 'msg' => '请求失败'], JSON_UNESCAPED_UNICODE);
+                die;
+            }
+        }else{
+            echo json_encode(['code' => 203, 'msg' => '请求失败'], JSON_UNESCAPED_UNICODE);
+
         }
-        $res=DB::connection('test1_mysql')->table('aes_user')->insert($data);
-       if($res){
-           echo json_encode(['code'=>200,'msg'=>'请求成功'],JSON_UNESCAPED_UNICODE);die;
-       }else{
-           echo json_encode(['code'=>203,'msg'=>'请求失败'],JSON_UNESCAPED_UNICODE);die;
-       }
 
     }
     public function ceshi(){
-        $url="http://www.project.com/api/adduser";
+        $cs="name=意见箱&age=23&mobile=18888888888";
+        $arr=explode('&',$cs);
+        $info=[];
+        foreach($arr as $k=>$v){
+          $dd=explode('=',$v);
+            $info[$dd[0]]=$dd[1];
+        }
+    dd($info);
+        $url="http://sun.vizhiguo.com/api/adduser";
         $one="1314520612345258";
-        $cs="name=孙志国&age=23&mobile=18888888888";
+        $cs="name=意见箱&age=23&mobile=18888888888";
         $aes=new aes($one);
         $info=$aes->encrypt($cs);
-        dd($info);
         dd(file_get_contents($url.'?user='.$info));
     }
 
