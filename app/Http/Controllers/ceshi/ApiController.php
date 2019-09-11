@@ -139,10 +139,9 @@ class ApiController extends Controller
     }
     public function adduser(Request $request){
         $data=$request->all();
-        dd($data);
-        if(empty($data['user'])){
-            echo json_encode(['code'=>205,'msg'=>'缺少参数'],JSON_UNESCAPED_UNICODE);die;
-        }
+
+        if(isset($data['user'])){
+
         $aes=new aes('1314520612345258');
         //解密
         $info=$aes->decrypt($data['user']);
@@ -169,6 +168,9 @@ class ApiController extends Controller
                 echo json_encode(['code' => 203, 'msg' => '请求失败'], JSON_UNESCAPED_UNICODE);
                 die;
             }
+        }else{
+            echo json_encode(['code'=>205,'msg'=>'缺少参数'],JSON_UNESCAPED_UNICODE);die;
+        }
 
     }
     public function ceshi(){
@@ -184,8 +186,8 @@ class ApiController extends Controller
         $one="1314520612345258";
         $cs="name=意见箱&age=23&mobile=18888888888";
         $aes=new aes($one);
-//        $info=$aes->encrypt($cs);
-        dd(file_get_contents($url.'?user='.$cs));
+        $info=$aes->encrypt($cs);
+        dd(file_get_contents($url.'?user='.$info));
     }
 
 
