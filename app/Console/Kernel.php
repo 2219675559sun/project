@@ -26,8 +26,9 @@ class Kernel extends ConsoleKernel
     {
         $schedule->call(function () {
 //            DB::table('recent_users')->delete();
-//            echo 111;
-            echo \Log::info(111);
+//
+             \Log::info();
+            echo 111;
         })->everyMinute();
         // $schedule->command('inspire')
         //          ->hourly();
