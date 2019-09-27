@@ -143,12 +143,10 @@ class ApiController extends Controller
         if(empty($data['user'])) {
             echo json_encode(['code'=>205,'msg'=>'缺少参数'],JSON_UNESCAPED_UNICODE);die;
         }
+
         $aes=new aes('1314520612345258');
         //解密
         $info=$aes->decrypt($data['user']);
-        if($info==false){
-            echo json_encode(['code'=>205,'msg'=>'参数错误'],JSON_UNESCAPED_UNICODE);die;
-        }
             $data = explode('&', $info);
             $name = substr($data[0], 5);
             $age = substr($data[1], 4);
@@ -187,7 +185,7 @@ class ApiController extends Controller
         $one="1314520612345258";
         $cs="name=意见箱&age=23&mobile=18888888888";
         $aes=new aes($one);
-        $info=$aes->decrypt($cs);
+        $info=$aes->encrypt($cs);
         dd($info);
         dd(file_get_contents($url.'?user='.$cs));
     }

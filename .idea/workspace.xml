@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/GoodsController.php" line="83" />
+    <bookmark url="file://$PROJECT_DIR$/resources/views/App/admin/cargo/index.blade.php" line="2" />
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/CategoryController.php" line="40" />
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/App/index/CategoryController.php" line="29" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ef724e51-0d0d-45c2-a6f0-157c34ecfca6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ceshi/api/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ceshi/api/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,54 +46,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Rsa/Rsa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="136" selection-start-line="136" selection-end-line="140" selection-end-column="34" />
+            <state>
+              <caret line="61" column="35" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php">
+        <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="167" column="7" lean-forward="true" selection-start-line="167" selection-start-column="7" selection-end-line="167" selection-end-column="7" />
-              <folding>
-                <element signature="e#46#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-688">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Aes/Aes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="308">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>appadminjs</find>
+      <find>js/</find>
+      <find>/appadmin/js/</find>
+      <find>css/</find>
+      <find>img/</find>
+      <find>J_iframe</find>
+      <find>favicon</find>
+      <find>= =</find>
+      <find>img</find>
+      <find>image</find>
+      <find>css</find>
+      <find>index_log</find>
+      <find>headers</find>
+      <find>$</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>appadmin\js</replace>
+      <replace>/appadmin/js</replace>
+      <replace>/appadmin/js/</replace>
+      <replace>/app/admin/js/</replace>
+      <replace>/app/admin/css/</replace>
+      <replace>/app/admin/img/</replace>
+      <replace>/log/css</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,49 +98,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/login.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/ceshi/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/log.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/curl/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/curl/update.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/ceshi/wechat_openid.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/ceshi/Wechat_openid.php" />
-        <option value="&lt;b7446dee-761a-4424-b7f1-09e151fea493&gt;/routes/web.php" />
-        <option value="&lt;b7446dee-761a-4424-b7f1-09e151fea493&gt;/.env.example" />
-        <option value="&lt;b7446dee-761a-4424-b7f1-09e151fea493&gt;/.env" />
-        <option value="&lt;b7446dee-761a-4424-b7f1-09e151fea493&gt;/config/database.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/user/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/user/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/curl/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/attribute/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/attribute/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/GoodsattrController.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/goods/product_add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/Cargo.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/cargo/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/layouts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/category/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/type/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/Type.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/admin/TypeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/type/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/Category.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/api/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Ceshi/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/user/1.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/user/index.blade.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Ceshi/api/ApiUserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/api/ApiUserController.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/apiUser/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/apiUser/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Ceshi/api/ApiUser.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/add.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/add.blade.php" />
-        <option value="$PROJECT_DIR$/config/filesystems.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/layout.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Ceshi/Wechat_openid.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/user/update.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Rsa/Rsa.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Ceshi/api/goodsApi/GoodsApi.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/api/GoodsApiController.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/update.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/attribute/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/admin/AttributeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Common/public.php" />
+        <option value="$PROJECT_DIR$/app/Http/Common/public.php" />
+        <option value="$PROJECT_DIR$/app/Http/Common/Common.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/category/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/goods/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/Goods.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/log/index.html" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/admin/LogController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/app_log.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/Attribute.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/admin/GoodsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/goods/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/index/Log.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/index/CategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/weather/log.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/ceshi/api/zoukao/weather/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/api/zhoukao/WeatherController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/index/LogController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/index/Goods.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/app_index_log.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/Index.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/Cage.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/Cart.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/header.php" />
+        <option value="$PROJECT_DIR$/resources/views/App/admin/log/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/index/Category.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/index/Cart.php" />
+        <option value="$PROJECT_DIR$/app/Http/Model/App/admin/Goodsattr.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Aes/Aes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/App/index/GoodsController.php" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
+        <option value="&lt;b7446dee-761a-4424-b7f1-09e151fea493&gt;/app/Console/Kernel.php" />
       </list>
     </option>
   </component>
@@ -248,144 +266,12 @@
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Aes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Ceshi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Rsa" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Rsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="zoukao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="zoukao" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsApi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -407,25 +293,7 @@
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -442,7 +310,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myshop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -450,11 +318,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wnmp\www\project\app\Http\Model\App\index" />
+      <recent name="C:\wnmp\www\project\app\Http" />
+      <recent name="C:\wnmp\www\project\resources\views\App\admin\category" />
       <recent name="C:\wnmp\www\project\app\Http\Model\Ceshi\api\goodsApi" />
       <recent name="C:\wnmp\www\project\resources\views\ceshi\api\zoukao\goodsApi" />
-      <recent name="C:\wnmp\www\project\app\Http\Controllers\ceshi" />
-      <recent name="C:\wnmp\www\project\resources\views\ceshi\api" />
-      <recent name="C:\wnmp\www\project\resources\views\ceshi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,18 +370,57 @@
       <workItem from="1567824087737" duration="13944000" />
       <workItem from="1567948215572" duration="4868000" />
       <workItem from="1567987870176" duration="27928000" />
-      <workItem from="1568085744514" duration="20308000" />
+      <workItem from="1568085744514" duration="20849000" />
+      <workItem from="1568126276901" duration="23000" />
+      <workItem from="1568162767043" duration="11568000" />
+      <workItem from="1568253801007" duration="16793000" />
+      <workItem from="1568592611470" duration="27005000" />
+      <workItem from="1568681101628" duration="25782000" />
+      <workItem from="1568725205715" duration="48000" />
+      <workItem from="1568766156806" duration="29316000" />
+      <workItem from="1568852980622" duration="27417000" />
+      <workItem from="1568938306944" duration="26414000" />
+      <workItem from="1568982562873" duration="606000" />
+      <workItem from="1569033328953" duration="13181000" />
+      <workItem from="1569198770300" duration="20339000" />
+      <workItem from="1569286183717" duration="5561000" />
+      <workItem from="1569295862897" duration="16583000" />
+      <workItem from="1569376055227" duration="8777000" />
+      <workItem from="1569457384205" duration="8231000" />
+      <workItem from="1569543401719" duration="3652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174023000" />
+    <option name="totallyTimeSpent" value="415860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23458445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32719547" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info active="true" anchor="right" id="Remote Host" order="4" visible="true" weight="0.2546917" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -534,253 +441,16 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.2546917" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/curl/update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/curl/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="13" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/log.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/curl/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="127" column="52" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/user/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiUserControllerController.php" />
-    <entry file="file://$PROJECT_DIR$/storage/app/api/user/4hiKWzwTSOUGKGp0zJlvaFflkr5AsWfnnGOw3O1N.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/api/user/2019-9-7/9twh0J3y6vwHSt9B4XektQaMhIMNhiKKQHcwwJkV.jpeg" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/web.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret column="54230" selection-start-column="54230" selection-end-column="54230" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/add.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/apiUser/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="71" column="15" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="71" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/api/goods/2019-9-9/VtVzSHIdqpA1sQ0FCVbBlVD2sUGRdca1FtEC2QXu.jpeg" />
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/user/1.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/apiUser/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Model/Ceshi/Wechat_openid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Model/Ceshi/api/ApiUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#44#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Model/Ceshi/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/user/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="130" column="6" selection-start-line="126" selection-start-column="3" selection-end-line="130" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/api/ApiUserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#50#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="88" column="35" lean-forward="true" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Model/Ceshi/api/goodsApi/GoodsApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="e#53#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/api/GoodsApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="155" column="9" lean-forward="true" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="9" />
-          <folding>
-            <element signature="e#50#78#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="87" column="51" lean-forward="true" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
           </folding>
@@ -789,66 +459,374 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/api/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/attribute/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="100" column="53" lean-forward="true" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/AttributeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <element signature="e#50#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#50#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/category/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="84" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/category/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/log/index.html" />
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/goods/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/CargoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/GoodsattrController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/TypeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#50#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/admin/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/attribute/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/goods/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/cargo/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/goods/product_add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="e#50#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/admin/Attribute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/index/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#50#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/admin/LogController.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/weather/log.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/layouts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/weather/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/api/zhoukao/WeatherController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/index/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
-            <element signature="e#50#78#0#PHP" expanded="true" />
+            <element signature="e#44#83#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/user/update.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/admin/Goods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Rsa/Rsa.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/index/Log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="136" selection-start-line="136" selection-end-line="140" selection-end-column="34" />
+        <state relative-caret-position="344">
+          <caret line="15" column="28" selection-start-line="8" selection-start-column="3" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/App/admin/log/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1654">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="278">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/admin/Goodsattr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/index/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/App/index/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="488">
+          <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Rsa/Rsa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2032">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Common/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/app_log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/api/zoukao/goodsApi/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Aes/Aes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="2688">
+          <caret line="96" column="56" lean-forward="true" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/CurlController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-688">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="540">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/index/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2935">
+          <caret line="216" column="50" lean-forward="true" selection-start-line="216" selection-start-column="50" selection-end-line="216" selection-end-column="50" />
+          <folding>
+            <element signature="e#81#120#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/App/index/LogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#50#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/app_index_log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#39#72#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="167" column="7" lean-forward="true" selection-start-line="167" selection-start-column="7" selection-end-line="167" selection-end-column="7" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
+        <state>
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>

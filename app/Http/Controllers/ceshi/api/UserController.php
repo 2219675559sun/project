@@ -16,6 +16,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         $name=$request->input('name');
+//        dump($name);
         $where=[];
         $where_age=[];
         if(!empty($name)){
