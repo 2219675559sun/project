@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\ceshi;
-
+use App\Http\Common\Common;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Model\Ceshi\Wechat_openid;
@@ -15,6 +15,11 @@ class ApiController extends Controller
      * 添加
      *
      * */
+    public $common;
+    public function __construct(Common $common)
+    {
+        $this->common=$common;
+    }
     public function create(Request $request){
 //        return 11;die;
         $data=$request->input();
@@ -39,17 +44,22 @@ class ApiController extends Controller
      * 展示
      * */
     public function index(){
+//        $url="http://api.k780.com:88/?app=weather.future&weaid=北京&&appkey=10003&sign=b59bc3ef6191eb9f747dd4e83c99f2a4&format=json";
+////       dd(file_get_contents($url));
+//        dd($this->common->get($url));
+
         //对称加密
         $my='12345678901234561234567890123456';
-        $mw='hLlDHcFgKgfDJMNR8yWFVq3ZFRmKh1TXFbV0G/qFE+rtT98uUvbIYMxK+Du4/OJ8A1Eal28skNg6ie10w80Xc8IbBJRLtmavduUC5IkceDf/haoh56jPxgIBTbgBa0a9YRDb5FrDWyQdA8VWMqEJpSZ0Ck99CR5Uxu/zKUU5U+amdhjLrn8pVJ5nSYx4KF3s';
-
+        $mw="5bc7ac1e215cd13949c67dcb2955a182";
+//        $mw='你好呀';
         $aes=new Aes('12345678901234561234567890123456');
         //加密
-//        $encrypt = $aes->encrypt($mw);
+        $encrypt = $aes->encrypt($mw);
+//        dd($encrypt);
 //        dump("<p>");
         //解密
 //        dd($encrypt);
-//       $decrypt=$aes->decrypt($mw);
+       $decrypt=$aes->decrypt($mw);
 //        dd($decrypt);
         //----------------------------------------------------------------------------
         //非对称加密
@@ -59,15 +69,15 @@ class ApiController extends Controller
         $Rsa->init($privkey, $pubkey,TRUE);
         //私钥加密示例
         $data="张衡是个王八蛋";
-        $encode = $Rsa->priv_encode($data);
+//        $encode = $Rsa->priv_encode($data);
 //        dd($encode);
-        $ret = $Rsa->pub_decode($encode);
+//        $ret = $Rsa->pub_decode($encode);
 //        dd($ret);
         //公钥加密示例
         $encode = $Rsa->pub_encode($data);
-        dd($encode);
+//        dd($encode);
         $ret = $Rsa->priv_decode($encode);
-        dd($ret);
+//        dd($ret);
         //---------------------------------------------------------------------
 //        $url="http://wym.yingge.fun/api/test/addUser";
 //        $data=md5('1901'.'孙志国'.'23');

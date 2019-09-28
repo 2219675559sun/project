@@ -53,7 +53,6 @@ class WeatherController extends Controller
         }else{
             return json_encode(['code'=>206,'msg'=>'缺少参数']);
         }
-
     }
     public function unset_token(Request $request){
        $token=$request->input('token');

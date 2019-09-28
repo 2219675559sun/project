@@ -149,3 +149,23 @@ Route::get('weather/log', function () {
 Route::get('weather/index', function () {
     return view('ceshi.api.zoukao.weather.index');
 });
+//-----------------------------------月考------------------------------------------
+Route::post('yuekao/login', 'ceshi\api\zhoukao\WechatController@login');//登录
+Route::post('yuekao/log', 'ceshi\api\zhoukao\WechatController@log');//登录
+Route::get('wechat/index', 'ceshi\api\zhoukao\WechatController@index');//登录
+Route::get('yuekao/list', 'ceshi\api\zhoukao\WechatController@list');//登录
+
+Route::get('ceshi/index', 'ceshi\api\zhoukao\CeshiController@index');//登录
+
+
+Route::get('ceshi/index', 'ceshi\api\zhoukao\CeshiController@index');//登录
+
+Route::get('wechat/login', function () {
+    return view('ceshi.api.zoukao.weixin.login');
+});
+Route::get('wechat/log', function () {
+    return view('ceshi.api.zoukao.weixin.log');
+});
+//Route::get('wechat/index', function () {
+//    return view('ceshi.api.zoukao.weixin.index');
+//});
